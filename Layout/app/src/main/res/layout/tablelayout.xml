@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    %%TableLayout Kullanımı
+    <TableRow
+        android:id="@+id/firstRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+
+            android:id="@+id/test1_txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#b0b0b0"
+            android:padding="28dip"
+            android:text="Text 1"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <TextView
+
+            android:id="@+id/test2_txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:padding="28dip"
+            android:text="Text 2"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/secondRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp">
+        <TextView
+
+            android:id="@+id/test3_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#b0b0"
+            android:padding="28dip"
+            android:text="Text 3"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <TextView
+
+            android:id="@+id/test4_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00c4ff"
+            android:padding="28dip"
+            android:text="Text 4"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+    </TableRow>
+</TableLayout>
